@@ -10,6 +10,6 @@ If the key is "space" or "enter" give space or change line respectively.
 
 
 Note:
- 1.File is in write mood so every time old text will be replaced(modify it for your need)
- 2.it will be writing the keys after 10 strokes.
+1.File is in write mood so every time old text will be replaced(modify it for your need)
+2.it will be writing the keys after 10 strokes.
 
