@@ -46,3 +46,46 @@ with Listener(on_press=press, on_release=release) as listener:
     listener.join()
 
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    OBJECT ORIENTED PRACTICE:
+    
+    
+    
+    
+    class Shoes:
+        def __init__(self,name,price):
+                self.name=name
+                self.price =price
+        
+        def check_budget(self,budget):
+                if not isinstance(budget, (int,float)):
+                        print('invalid  entry........')
+                        exit()
+        def change(self, budget):
+                return (budget -self.price)
+        
+        def buy(self,budget):
+                self.check_budget(budget)
+
+                if budget>=self.price:
+                        print(f"you can buy some {self.name}")
+
+                        if budget==self.price:
+                                print("yoh have enough money")
+                        else:
+                                print(f"you can buy and you have {self.change(budget)}")
+                        
+                        exit('Thanks for shopping with us')
+                
